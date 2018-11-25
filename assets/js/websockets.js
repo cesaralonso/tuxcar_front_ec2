@@ -117,7 +117,7 @@
     }
 
     // var sock = new SockReconnect( `http://test.viemx.com/echo`, null, new_status, on_message);
-    var sock = new SockReconnect( `http://34.220.153.206/backend:3000/echo`, null, new_status, on_message);
+    var sock = new SockReconnect( `http://34.220.153.206:3000/echo`, null, new_status, on_message);
     if (window.addEventListener) {
       window.addEventListener('load', sock.connect, false);
     } else {
