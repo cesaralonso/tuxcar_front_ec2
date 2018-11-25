@@ -281,7 +281,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 var Configuration = (function () {
     function Configuration() {
-        this.Server = 'http://34.220.153.206:3000/'; // tuxcars instance ec2
+        this.Server = 'http://34.220.153.206/backend:3000/'; // tuxcars instance ec2
         this.ApiUrl = '';
         this.imageServerWithApiUrl = 'http://test.com/';
         this.ServerWithApiUrl = this.Server + this.ApiUrl;
